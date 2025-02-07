@@ -1,0 +1,77 @@
+body{
+    background-color: #202424;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+}
+.card{
+    display: block;
+    margin:auto;
+    width: 25%;
+    background-color: #1c2020;
+}
+.card--image{
+    width: 100%; /* Make the image span the full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire space without distortion */
+    border-top-left-radius: 5px; /* Optional: Add rounded corners for aesthetics */
+    border-top-right-radius: 5px; /* Optional: Add rounded corners for aesthetics */
+    display: block;
+    margin-bottom:-45px;
+}
+#name{
+    text-align: center;
+    font-size:larger;
+    margin-bottom: -5px;
+}
+#designation{
+    text-align: center;
+    color: lightcoral;
+    font-size: 10px;
+    margin-bottom: -5px;
+}
+#website{
+    text-align: center;
+    font-size: 9px;
+    color: white;
+}
+.card--links{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+.subcard--links>i{
+    padding-right: 10px;
+}
+.card--links>button{
+    width: 150px;
+    height: 25px;
+    font-size:12px;
+    border-radius: 5px;
+}
+.subcard>h1{
+    font-size: medium;
+    margin-top:35px;
+    margin-bottom: -10px;
+}
+.subcard>p{
+    font-size: 11px;
+}
+#linkedin{
+    background-color: #4d84d8;
+    border: #4d84d8;
+    color: white;
+}
+.subcard{
+padding: 20px;
+}
+.bottom{
+background-color: #181414;
+display: flex;
+justify-content: center;
+gap: 10px;
+padding: 10px;
+border-radius: 5px;
+}
+.bottom>button{
+    opacity:0.5;
+}
