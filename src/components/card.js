@@ -1,4 +1,4 @@
-import image from '../mypic.png'
+import image from '../mypic.jpeg'
 export default function Card(){
     return(
         <div className='card'>
